@@ -52,23 +52,23 @@
                                       ?>
                                     <div class="container">
                                     <div class="con"><i class="fa fa-user icon" style="color:;"></i></div>
-                                    <input type="text " placeholder="Enter Your Name" name="usrnm">
+                                    <input type="text " placeholder="Enter Your Name" name="usrnm" required>
                                     </div>
                                     <div class="container">
                                     <div class="con"><i class="fa fa-envelope icon"></i></div>
-                                    <input type="email " placeholder="Your email Id" name="email">
+                                    <input type="email " placeholder="Your email Id" name="email" required>
                                     </div>
                                     <div class="container">
                                     <div class="con"><i class="fa fa-user icon"></i></div>
-                                    <input type="text " placeholder="Enter User Name" name="uname">
+                                    <input type="text " placeholder="Enter User Name" minlength="4" maxlength="7" name="uname" required>
                                     </div>
                                     <div class="container">
                                     <div class="con"><i class="fa fa-phone icon"></i></div>
-                                    <input type="Phone " placeholder="Enter Phone Number" name="phn">
+                                    <input type="Phone " placeholder="Enter Phone Number" minlength="10" maxlength="10" name="phn" required>
                                     </div>
                                     <div class="container">
                                     <div class="con"><i class="fa fa-key icon"></i></div>
-                                    <input type="password " placeholder="Enter Password" name="psw">
+                                    <input class="field" type="password" placeholder="Password" minlength="6" maxlength="12" name="psw" required>
                                     </div>
                                     <div>
                                     <button class="buttoon" name="submit" type="submit ">SignUp</button>

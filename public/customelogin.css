@@ -12,6 +12,20 @@ input[type="text "], input[type="password "],input[type="email "],input[type="ph
     background: white;
     height: 45px;
   }
+
+.field{
+    width: 80%;
+    padding: 12px 18px;
+    margin: 8px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: 2px solid white;
+    border-right: none;
+    box-sizing: border-box; 
+    background: white;
+    height: 45px;
+}
   
   /* Set a style for all buttons */
   .buttonn {
